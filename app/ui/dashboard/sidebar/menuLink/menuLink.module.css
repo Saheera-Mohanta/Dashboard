@@ -1,0 +1,11 @@
+.container{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.container:hover{
+    background-color: #e9efff;
+    color: rgb(11, 61, 239);
+}

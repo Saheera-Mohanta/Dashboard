@@ -1,0 +1,44 @@
+.dropdownContainer {
+    display: flex;
+    gap: 20px;
+    width: 300px;
+    margin-left: 5px;
+   
+  }
+  
+  .dropdownWrapper {
+
+    display: flex;
+    /* flex-direction: column; */
+  }
+  
+  .dropdown {
+    width: 370px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #f9f9f9 ;
+    border-radius: 15px;
+    transition: border-color 0.3s ease;
+    color: gray;
+  }
+  
+  .dropdown:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  } */
+  
+  /* option {
+    font-size: 16px;
+    padding: 10px;
+  }
+   */
